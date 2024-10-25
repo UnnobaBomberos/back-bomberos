@@ -16,5 +16,9 @@ public class CatalogoVehiculos {
     public void setVehiculos(ArrayList<Vehiculo> vehiculos) {
         this.vehiculos = vehiculos;
     }
+
+    public void cargarVehiculo (Vehiculo vehiculo){
+        vehiculos.add (vehiculo);
+    }
     
 }
